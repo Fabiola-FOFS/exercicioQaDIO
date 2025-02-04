@@ -1,0 +1,63 @@
+ 1. Adicionar Produto ao Catálogo
+Título: Como um administrador, quero adicionar um novo produto para que os clientes possam vê-lo e comprá-lo.
+Descrição:
+
+Como um administrador, quero poder adicionar produtos ao catálogo com nome, descrição, preço e imagens.
+Critérios de aceitação:
+✅ O sistema deve permitir cadastrar um produto com todas as informações obrigatórias.
+✅ A imagem do produto deve ser exibida corretamente na página do catálogo.
+✅ O produto deve aparecer para os clientes assim que for publicado.
+
+
+🛒 2. Finalizar Compra no Checkout
+Título: Como um cliente, quero finalizar minha compra de forma rápida e segura.
+Descrição:
+
+Como um cliente, quero um processo de checkout simples e seguro para concluir minha compra.
+Critérios de aceitação:
+✅ O checkout deve permitir que o cliente revise os itens antes de pagar.
+✅ O sistema deve aceitar pagamentos via cartão de crédito e Pix.
+✅ O pedido deve ser confirmado com um e-mail de notificação.
+
+
+
+📦 3. Rastrear Pedido
+Título: Como um cliente, quero acompanhar o status do meu pedido para saber quando ele será entregue.
+Descrição:
+
+Como um cliente, quero receber atualizações sobre o status do meu pedido (processando, enviado, entregue).
+Critérios de aceitação:
+✅ O sistema deve permitir que eu visualize meu pedido e seu status no painel do usuário.
+✅ Deve ser enviado um e-mail sempre que o status do pedido mudar.
+✅ O código de rastreamento deve estar disponível assim que o pedido for enviado.
+
+Épicos criados: 
+
+📦 1. Gestão de Produtos
+Descrição:
+Este épico cobre todas as funcionalidades relacionadas ao gerenciamento de produtos no catálogo, como adicionar, editar e remover itens.
+
+User Stories Relacionadas:
+✅ Adicionar Produto ao Catálogo
+✅ Editar um Produto
+✅ Remover um Produto
+
+
+🛒 2. Checkout e Pagamentos
+Descrição:
+Este épico agrupa funcionalidades relacionadas à compra e pagamento dos produtos no site.
+
+User Stories Relacionadas:
+✅ Finalizar Compra no Checkout
+✅ Escolher Método de Pagamento (Cartão, Pix)
+✅ Receber Confirmação de Pedido
+
+
+📦 3. Experiência do Cliente
+Descrição:
+Este épico foca na usabilidade e conveniência para os clientes, como rastreamento de pedidos e suporte ao cliente.
+
+User Stories Relacionadas:
+✅ Rastrear Pedido
+✅ Criar Conta e Login no Site
+✅ Solicitar Suporte via Chat

@@ -1,0 +1,74 @@
+1️⃣ Plano de Teste
+📌 Objetivo: Garantir que o cliente possa finalizar sua compra de forma rápida e segura.
+📌 Escopo: Testes relacionados ao fluxo de checkout, pagamento e confirmação de pedido.
+📌 Critérios de Sucesso: O pedido deve ser concluído com pagamento validado e confirmação enviada.
+
+2️⃣ Cenários de Teste
+💡 Cenários Principais:
+
+Cliente consegue finalizar a compra com diferentes métodos de pagamento.
+O sistema calcula corretamente os valores do pedido.
+O cliente recebe uma confirmação da compra.
+
+💡 Cenários de Exceção:
+
+Cliente tenta pagar com um cartão inválido.
+Cliente tenta finalizar a compra sem produtos no carrinho.
+Erro na comunicação com a operadora de pagamento.
+
+
+3️⃣ Casos de Teste
+🔹 Funcionais (Step-by-Step)
+
+Compra com Cartão de Crédito
+
+O cliente adiciona produtos ao carrinho.
+Escolhe "Cartão de Crédito" como pagamento.
+Insere os dados do cartão.
+Confirma a compra.
+O sistema exibe uma confirmação de pagamento.
+
+Tentativa de Compra com Cartão Inválido
+O cliente tenta pagar com um cartão inválido.
+O sistema exibe um erro e impede a compra.
+
+
+🔹 BDD 
+
+Compra via Pix
+
+O cliente adiciona um produto ao carrinho.
+Escolhe "Pix" no checkout.
+O sistema exibe um QR Code para pagamento.
+Após o pagamento, o pedido é confirmado.
+Compra sem itens no carrinho
+
+O cliente tenta finalizar a compra sem produtos.
+O sistema exibe uma mensagem de erro e bloqueia a ação.
+
+
+4️⃣ Execução dos Testes
+📌 Ambiente de Teste:
+
+Site rodando em ambiente de homologação.
+Integração com gateway de pagamento de testes.
+Usuários de teste cadastrados para simulação.
+📌 Testes Automatizados e Manuais:
+
+Testes manuais para validar o fluxo de checkout.
+Testes automatizados para verificar regras de pagamento.
+📌 Critérios de Aceitação:
+✅ Todos os pagamentos devem ser processados corretamente.
+✅ Nenhuma compra deve ser aprovada sem método de pagamento válido.
+✅ O cliente deve ser notificado sobre o status da compra.
+
+5️⃣ Relatórios e Métricas
+📌 Registro de Erros:
+
+Bugs encontrados serão reportados no Jira.
+Logs de falhas serão analisados para correção.
+📌 Métricas de Qualidade:
+
+Taxa de sucesso/falha nos testes.
+Tempo médio para finalização da compra.
+Cobertura de testes sobre os cenários planejados.

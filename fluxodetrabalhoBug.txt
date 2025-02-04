@@ -1,0 +1,40 @@
+📌 Plano de Fluxo de Trabalho de Desenvolvimento
+Objetivo:
+📌 Definir o fluxo de trabalho para o desenvolvimento de funcionalidades na loja virtual, garantindo que cada etapa seja bem documentada e rastreável no Jira.
+
+🔄 Etapas do Fluxo de Desenvolvimento:
+Backlog – A equipe de produto adiciona épicos, user stories e tarefas ao backlog.
+Planejamento da Sprint – Selecionamos itens do backlog para a sprint atual.
+Em Desenvolvimento – Os desenvolvedores começam a implementar a funcionalidade.
+Code Review – O código passa por revisão para garantir qualidade e boas práticas.
+Teste (QA) – A funcionalidade é validada pela equipe de QA.
+Pronto para Deploy – O código aprovado está pronto para ser liberado.
+Em Produção – A funcionalidade é implantada no site.
+Monitoramento – A equipe acompanha métricas de desempenho e possíveis bugs.
+
+📌 Ferramentas Utilizadas:
+Jira → Gerenciamento de tarefas e bugs.
+Zephyr Scale → Testes e validação.
+GitHub/GitLab → Versionamento de código.
+CI/CD (Jenkins, GitHub Actions, etc.) → Automação de deploy.
+
+
+📌 Ciclo de Vida do Bug (Bug Workflow)
+🎯 Objetivo:
+📌 Definir como os bugs encontrados serão tratados, desde a descoberta até a resolução.
+
+🔄 Etapas do Ciclo de Vida do Bug no Jira:
+Novo (New) – Bug identificado e registrado no Jira.
+Atribuído (Assigned) – Bug atribuído a um desenvolvedor.
+Em Correção (In Progress) – Desenvolvedor está trabalhando na correção.
+Corrigido (Fixed) – Correção implementada e aguardando teste.
+Em Teste (In Testing) – QA valida se o bug foi resolvido.
+Reaberto (Reopened) – Se o bug persistir, volta para desenvolvimento.
+Fechado (Closed) – Se o bug estiver resolvido e validado, ele é fechado.
+Cancelado (Rejected) – Se o bug não for relevante, ele é descartado.
+
+
+📌 Critérios para Priorizar um Bug:
+Alta (High) → Impede vendas ou checkout.
+Média (Medium) → Impacta a usabilidade, mas tem solução alternativa.
+Baixa (Low) → Pequenos ajustes visuais ou de desempenho.

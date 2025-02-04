@@ -1,0 +1,20 @@
+📝 Test Case 1: Compra com Sucesso via Pix
+gherkin
+Feature: Finalizar compra via Pix
+  Scenario: Cliente realiza uma compra com Pix com sucesso
+    Given o cliente adicionou um produto ao carrinho
+    And acessou o checkout
+    When escolhe "Pix" como forma de pagamento
+    And confirma a compra
+    Then o sistema deve exibir um QR Code para pagamento
+    And a compra deve ser concluída após o pagamento
+
+
+📝 Test Case 2: Tentativa de compra sem itens no carrinho
+gherkin
+Feature: Restrição de compra sem itens no carrinho
+  Scenario: Cliente tenta finalizar compra sem adicionar produtos
+    Given o cliente acessou o checkout
+    When tenta concluir a compra sem itens no carrinho
+    Then o sistema deve exibir uma mensagem de erro
+    And impedir a finalização da compra

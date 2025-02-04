@@ -1,0 +1,29 @@
+📝 Test Case 1: Finalizar compra com cartão de crédito
+✅ Título: Finalizar compra com cartão de crédito válido.
+✅ Descrição: Garantir que o cliente consiga finalizar uma compra usando cartão de crédito.
+
+Passos:
+
+Acessar o site e adicionar um produto ao carrinho.
+Ir para o checkout.
+Escolher "Cartão de Crédito" como forma de pagamento.
+Inserir dados válidos do cartão.
+Confirmar a compra.
+Verificar se a compra foi concluída com sucesso.
+Critério de sucesso:
+✔ O cliente deve receber uma confirmação de pagamento.
+
+📝 Test Case 2: Falha no pagamento por cartão inválido
+✅ Título: Tentativa de compra com cartão inválido.
+✅ Descrição: Testar se o sistema impede uma compra quando os dados do cartão são inválidos.
+
+Passos:
+
+Adicionar um produto ao carrinho.
+Ir para o checkout.
+Escolher "Cartão de Crédito".
+Inserir um número de cartão inválido.
+Tentar concluir a compra.
+Critério de sucesso:
+✔ O sistema deve exibir uma mensagem de erro e impedir a transação.
+
